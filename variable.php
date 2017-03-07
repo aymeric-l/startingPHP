@@ -10,15 +10,23 @@
 $nom = 'lacoste';
 $prenom = 'aymeric';
 $age = 22;
+
 $killometre = 1;
+
 $leString = 'Chaine';
 $leInt = 666;
 $leFloat = 3.3;
 $leBool = true;
+
 $entier = (int)null;
+
 $NOM = 'Jacquie';
 $PRENOM = 'Michel';
 $AGE = 69;
+
+$calculUn = 3+4;
+$calculDeux = 5*20;
+$calculTrois = 45/5;
 
 
 echo '<h2>Exo 1 et 2</h2>';
@@ -38,10 +46,14 @@ echo 'Entier était egal à : '.$entier;
 $entier = 10;
 echo '. Il est maintenant de : '.$entier;
 $Nom = 'José';
-echo '<h2>Exo 5</h2>';
+echo '<h2>Exo 6</h2>';
 echo 'Bonjour '.'<span style="color:red">'.$Nom.'</span>'.', comment vas-tu ?</br>';
-'<h2>Exo 6</h2>';
+echo '<h2>Exo 7</h2>';
 echo 'Bonjour '.'<span style="color:red">'.$NOM.' '.$PRENOM.'. Tu as '.$AGE.' ans.</span>';
+echo '<h2>Exo 8</h2>';
+echo '</br>Le resultat de l\'opération 3+4 = '.$calculUn;
+echo '</br>Le resultat de l\'opération 5x20 = '.$calculDeux;
+echo '</br>Le resultat de l\'opération 45/5 = '.$calculTrois;
 ?>
 
 </body>
