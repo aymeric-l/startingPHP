@@ -46,6 +46,13 @@ for($i=20; $i!=0; $i--){
 	echo 'C\'est presque bon</br>';
 }
 echo '</br>';
+for($i=1;$i <=100;$i+=15){
+	echo 'On tient le bambou là</br>';
+}
+echo '</br>';
+for($i=200;$i>=0;$i-=12){
+	echo 'Enfin !!!!</br>';
+}
 ?>
 </body>
-</html>
+</html>     
