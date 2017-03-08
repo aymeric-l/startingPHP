@@ -9,6 +9,8 @@
 $boucleDix = 0;
 $partieDeux = 0;
 $partieDeuxChoix = 3;
+$partieTroisCent = 100;
+$partieTrois = 10;
 
 while($boucleDix != 10){
 	echo $boucleDix;
@@ -20,7 +22,13 @@ while($partieDeux <= 20){
 	echo $partieDeux*$partieDeuxChoix.' ';
 	$partieDeux++;
 }
+echo '</br>';
+while($partieTroisCent >= 10){
+	echo ($partieTroisCent*$partieTrois).' ';
+	$partieTroisCent--;
+}
 
 ?>
 </body>
 </html>
+
