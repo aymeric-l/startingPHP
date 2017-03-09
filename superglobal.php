@@ -16,8 +16,15 @@ echo 'L\'user agent : '.$_SERVER['HTTP_USER_AGENT'];
 echo "<br>";
 echo 'L\'adresse IP : '.$_SERVER['SERVER_ADDR'].'</br>';
 
-
 ?>
 <a href="session.php">EXO VARIABLE SESSION</a>
+</br></br>
+
+<form action="session.php" method="post">
+	<input type="text" name="pseudo">
+	<input type="text" name="password">
+	<input type="submit" name="Envoi">
+</form>
+
 </body>
 </html>
