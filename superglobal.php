@@ -17,10 +17,10 @@ echo "<br>";
 echo 'L\'adresse IP : '.$_SERVER['SERVER_ADDR'].'</br>';
 
 ?>
-<a href="session.php">EXO VARIABLE SESSION</a>
+<a href="superglobalDeux.php">EXO VARIABLE SESSION</a>
 </br></br>
 
-<form action="session.php" method="post">
+<form action="superglobalDeux.php" method="post">
 	<input type="text" name="pseudo">
 	<input type="text" name="password">
 	<input type="submit" name="Envoi">
